@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Linearicons-Free';
+	src: url('linearicons/Linearicons-Free.eot?w118d');
+	src: url('linearicons/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
+		url('linearicons/Linearicons-Free.woff2?w118d') format('woff2'),
+		url('linearicons/Linearicons-Free.woff?w118d') format('woff'),
+		url('linearicons/Linearicons-Free.ttf?w118d') format('truetype'),
+		url('linearicons/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.lnr {
+	font-family: 'Linearicons-Free';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.lnr-chevron-left:before {
+	content: "\e875";
+}
+
+.lnr-chevron-right:before {
+	content: "\e876";
+}

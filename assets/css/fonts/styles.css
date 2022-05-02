@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+}
+
+.landing-navbar {
+  transition: all .2s;
+}
+
+.landing-navbar .nav-link {
+  font-size: .894rem;
+}
+
+/*
+ * Content
+*/
+.landing-block {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+hr.landing-separator {
+  margin: 0 0 1.25rem 0;
+  width: 3rem;
+  border-width: 2px;
+  text-align: left;
+}
+
+.social a {
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: transform 0.4s;
+  font-size: x-large;
+}
+
+.cor {
+  color: crimson;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: index;
+}
