@@ -11,13 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700" rel="stylesheet" />
+
+  <!-- Icon fonts -->
   <link rel="stylesheet" href="assets/css/fonts/ionicons.css" />
   <link rel="stylesheet" href="assets/css/fonts/linearicons.css" />
+
+  <!-- Core stylesheets -->
   <link rel="stylesheet" href="assets/css/rtl/bootstrap.css" class="theme-settings-bootstrap-css" />
   <link rel="stylesheet" href="assets/css/rtl/appwork.css" class="theme-settings-appwork-css" />
   <link rel="stylesheet" href="assets/css/rtl/theme-corporate.css" class="theme-settings-theme-css" />
   <link rel="stylesheet" href="assets/css/rtl/colors.css" class="theme-settings-colors-css" />
   <link rel="stylesheet" href="assets/css/rtl/uikit.css" />
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="assets/css/fonts/styles.css" />
   <link rel="stylesheet" href="assets/libs/swiper/swiper.css" />
@@ -25,6 +30,11 @@
 </head>
 
 <body>
+  <div class="page-loader">
+    <div class="bg-primary"></div>
+  </div>
+
+  <!-- Navbar -->
   <nav class="landing-navbar navbar navbar-expand-lg navbar-light fixed-top pt-lg-4">
     <div class="container-fluid px-3">
       <a class="navbar-brand text-big font-weight-bolder line-height-1 text-expanded py-3">
@@ -44,10 +54,13 @@
       </div>
     </div>
   </nav>
+  <!-- / Navbar -->
+
 
   <!-- Animation -->
   <div id="particles-js"></div>
 
+  <!-- Header -->
   <div id="Home" class="ui-bg-cover ui-bg-fixed text-white"
     style="background-image: url(assets/img/photos/background.jpg)">
     <div class="swiper-wrapper">
@@ -76,7 +89,9 @@
       </div>
     </div>
   </div>
+  <!-- / Header -->
 
+  <!-- Block -->
   <div id="About" class="landing-block bg-body ui-bg-overlay-container">
     <div class="container px-3">
       <div class="col-md-10 col-lg-8 col-xl-7 text-center p-0 mx-auto">
@@ -106,6 +121,7 @@
       </div>
     </div>
   </div>
+  <!-- / Block -->
 
   <div id="Skills" class="theme-bg-white">
     <div class="landing-block pb-5">
@@ -215,6 +231,7 @@
     <div class="landing-separator-stripes my-4"></div>
   </div>
 
+  <!-- Block -->
   <div id="Proyects" class="landing-block ui-bg-cover ui-bg-fixed ui-bg-overlay-container text-white"
     style="background-image: url(assets/img/photos/background.jpg)">
     <div class="ui-bg-overlay bg-dark opacity-75"></div>
@@ -278,7 +295,9 @@
       </div>
     </div>
   </div>
+  <!-- / Block -->
 
+  <!-- Footer -->
   <nav id="Contact" class="footer bg-white pt-5">
     <div class="container text-center py-4">
       <div class="pb-5">
@@ -318,11 +337,17 @@
       </div>
     </div>
   </nav>
+  <!-- / Footer -->
 
+  <!-- Scripts -->
   <script src="./assets/js/particles.min.js"></script>
   <script src="./assets/js/app.js"></script>
   <script src="assets/js/bootstrap.js"></script>
+
+  <!-- Libs -->
   <script src="assets/libs/swiper/swiper.js"></script>
+
+  <!-- Page -->
   <script src="assets/js/funciones.js"></script>
 </body>
 
