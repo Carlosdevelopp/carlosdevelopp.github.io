@@ -147,7 +147,7 @@ $(function () {
       slidesPerView: 6,
       spaceBetween: 30,
       breakpoints: {
-        1300: {
+        1400: {
           slidesPerView: 6,
         },
         992: {
