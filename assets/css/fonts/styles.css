@@ -36,17 +36,6 @@ hr.landing-separator {
   text-align: left;
 }
 
-.social a {
-  display: inline-flex;
-  height: 60px;
-  width: 60px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  transition: transform 0.4s;
-  font-size: x-large;
-}
-
 #twitter {
   color: #1DA1F2;
 }
@@ -65,6 +54,17 @@ hr.landing-separator {
 
 #mail {
   color: #D14235;
+}
+
+.social a {
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: transform 0.4s;
+  font-size: x-large;
 }
 
 .cor {
