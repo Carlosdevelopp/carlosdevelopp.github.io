@@ -47,6 +47,26 @@ hr.landing-separator {
   font-size: x-large;
 }
 
+#twitter {
+  color: #1DA1F2;
+}
+
+#instagram {
+  color: #000000;
+}
+
+#linkedin {
+  color: #0077B5;
+}
+
+#github {
+  color: #000000;
+}
+
+#mail {
+  color: #D14235;
+}
+
 .cor {
   color: crimson;
 }
