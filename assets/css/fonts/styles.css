@@ -25,14 +25,29 @@ body {
  * Content
 */
 .landing-block {
-  padding-top: 13rem;
-  padding-bottom: 5rem;
+  padding-top: 12rem;
+  padding-bottom: 2rem;
+}
+
+.landing-block-skills {
+  padding-top: 12rem;
+  padding-bottom: 11rem;
+} 
+
+.landing-block-proyect {
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+} 
+
+.landing-block-about {
+  padding-top: 6rem;
+  padding-bottom: 12rem;
 }
 
 hr.landing-separator {
   margin: 0 0 1.25rem 0;
-  width: 3rem;
-  border-width: 2px;
+  width: 2rem;
+  border-width: 1px;
   text-align: left;
 }
 
