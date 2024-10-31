@@ -24,10 +24,6 @@ body {
 /*
  * Content
 */
-.landing-block {
-  padding-top: 12rem;
-  padding-bottom: 2rem;
-}
 
 .landing-block-skills {
   padding-top: 11rem;
@@ -35,8 +31,8 @@ body {
 } 
 
 .landing-block-proyect {
-  padding-top: 7rem;
-  padding-bottom: 11rem;
+  padding-top: 5rem;
+  padding-bottom: 13rem;
 } 
 
 .landing-block-about {
